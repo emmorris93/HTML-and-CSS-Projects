@@ -1,0 +1,33 @@
+div.wrapper {
+	width: 900px;
+}
+p.darkgreen{
+	color: darkgreen; 
+}
+p.blue{
+	color: blue; 
+}
+p.orangered{
+	color: orangered;
+}
+p.maroon{
+	color: maroon;
+}
+p.hotpink{
+	color: hotpink;
+}
+p.left{
+	text-align: left;	
+}
+p.center{
+	text-align: center;	
+}
+p.right{
+	text-align: right;
+}
+h2, h1{
+	text-align: center;
+}
+h1{
+	color: black;
+}

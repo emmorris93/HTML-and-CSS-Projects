@@ -1,0 +1,16 @@
+.Center_Text {
+	text-align:center
+}
+p{
+	color: gold;
+	background: purple;
+	font-weight: bold;
+	text-align: center;
+}
+h2:after {
+    content: ' \00A3';
+}
+h2 {
+  text-shadow: 0 0 3px #800080, 0 0 5px #FFD700;
+}
+

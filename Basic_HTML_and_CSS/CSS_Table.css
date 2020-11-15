@@ -1,0 +1,18 @@
+table {
+	border: 1px solid silver;
+}
+td:hover {
+	background-color: black;
+	color: white;
+}
+tr,th {
+	background-color: purple;
+	color: gold;
+}
+tr,td {
+	background-color: gold;
+	color: purple;
+}
+.Center_Text {
+	text-align:center
+}
