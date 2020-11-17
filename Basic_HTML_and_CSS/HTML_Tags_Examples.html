@@ -1,0 +1,92 @@
+<!DOCSTYLE html>
+<html lang="en">
+	<head>
+		<title>Article, Details, Summary, Time/DateTime Tags</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<!-- HTML <article> tag - 
+			- specifies independent, self-contained content.
+			- should make sense on its own and should be possible to distribute independently from the rest of the site.
+			- potential sources for the <article> element:
+				- forum post
+				- blog post
+				- news story
+			- does not render as anything special in a browswer but can be styled with CSS
+		
+			Most browswers will display the <article> element with the following default values:
+			article {
+				display:  block;
+			} -->
+		
+		<h3>Article Example:</h3>
+		<article>
+			<h2>Google Chrome</h2>
+			<p>
+				Google Chrome is a web browswer developed by Google, released in 2008.
+				Chrome is the world's most popular web browswer today!
+			</p>
+		</article>
+		<article>
+			<h2>Mozilla Firefox</h2>
+			<p>
+				Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the 
+				second most popular web browser since January, 2018.
+			</p>
+		</article>
+		<article>
+			<h2>Microsoft Edge</h2>
+			<p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. 
+			Microsoft Edge replaced Internet Explorer.
+			</p>
+		</article>		
+		
+		
+		<!-- HTML <details> tag and <summary> tag -
+			<details> tag:
+				- specifies additional details that the uswer can open and close on demand;
+				- often used to create an interactive widget that the user can open and close (widget is closed by default);
+				when open, it expands and displays the content within.
+				- Any sort of content can be put inside the <details> tag.
+				- The <summary> tag is used in conjunction with <details> to specify a visible heading for the details.
+			
+				Most browswers will display the <details> element with the following default values:
+				details {
+					display: block;
+				} 
+			<summary> tag:
+				- defines a visible heading for the <details> element; heading can be clicked to view/hide details 
+				- should be the first child element of the <details> element
+				
+				Most browers will display the <summary> element with the following default values:
+				summary {
+					display:  block;
+				} -->
+				
+		<h3>Details & Summary Example:</h3>
+		<details>
+			<summary>Epcot Center</summary>
+			<p>
+				Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+				award winning fireworks and seasonal special events.
+			</p>
+		</details>
+		
+		<!-- HTML <time> tag and <datetime> tag -
+			<time> tag:
+			- defines a specific time (or datetime)
+			
+			datetime attribute of this element is used translate the time into a machine-readable format so that browsers 
+			can offer to add date reminders through the user's calendar and search engines can produce smarter search results. -->
+		
+		<h3>Time/DateTime Example:</h3>
+		<p>
+			Open from <time>10:00</time> to <time>21:00</time> every weekday.
+		</p>
+		
+		<p>
+			I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.
+		</p>
+	</body>
+</html>
+
