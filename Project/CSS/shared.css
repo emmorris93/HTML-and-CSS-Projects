@@ -163,7 +163,7 @@ section {
     display: block;
     height: auto;
     padding-top: 250px; /* This is spacer before the Main title Logo */
-    padding-bottom: 800px; /* This is spacer after the Main title Logo */
+    padding-bottom: 1200px; /* This is spacer after the Main title Logo */
     color: #fff;
 }
 
@@ -206,7 +206,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    width: 60%;
+    width: 1050px;
     border-radius: 8px; /* radius - rounds the corners*/
     margin: 0px auto;
     background-color: #fff;
