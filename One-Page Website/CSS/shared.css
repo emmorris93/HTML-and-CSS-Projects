@@ -150,7 +150,7 @@ section {
 ==========================================================================*/
 
 #home {
-    background: url(../Images/dogs-and-flowers_.jpg); no-repeat;
+    background: url(../Images/dogs-and-flowers_.jpg); no-repeat 50% 50%;
     background-attachment: fixed;
     background-position: center;
     -webkit-background-size: cover;
@@ -219,7 +219,7 @@ section {
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(53, 128, 240, 0.904);
+    background-color: rgba(149, 197, 121, 0.904);
     box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
 

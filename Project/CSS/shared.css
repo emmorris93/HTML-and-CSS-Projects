@@ -4,8 +4,10 @@
     GENERIC STYLES
 ==================================================================*/
 
+
+			
 html {
-    font-family: sans-serif, anothername, timesnewroman;
+    font-family: sans-serif;
     font-size: 62.5%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-text-size-adjust: 100%;
@@ -15,7 +17,7 @@ html {
 body {
     font-size: 14px;
     margin: 0;
-    font-family: "Helvetica Heue"; Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue"; Helvetica, Arial, sans-serif;
     line-height: 1.42857143;
     color: #333;
     background-color: rgb(151, 216, 241);
@@ -156,11 +158,12 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center center;
     width: 100%;
     display: block;
     height: auto;
-    padding-top: 350px; /* This is spacer before the Main title Logo */
-    padding-bottom: 500px; /* This is spacer after the Main title Logo */
+    padding-top: 250px; /* This is spacer before the Main title Logo */
+    padding-bottom: 800px; /* This is spacer after the Main title Logo */
     color: #fff;
 }
 
@@ -218,7 +221,7 @@ section {
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(53, 128, 240, 0.904);
+    background-color: rgba(163, 248, 195, 0.904);
     box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -247,8 +250,9 @@ section {
 
 .adoption p {
     color: #13161b;
-    width: 50%;
-    margin: 0 auto;
+    width: 55%;
+    margin: 0% auto;
+    text-align: center;
 }
 
 .adoption form {
@@ -257,11 +261,11 @@ section {
     font-weight: 600;
     color: #6193f0;
     padding: 12px 12px;
-    width: 70%;
+    width: 77%;
     border: 1px solid #808d80;
     margin: 2% auto;
     border-radius: 7px;
-    background: rgb(227, 222, 222);
+    background: rgb(248, 253, 168);
     box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: 'Raleway', sans-serif;
 }
@@ -294,6 +298,7 @@ section {
 
 .terms {
     margin: 30px 1px 0 0;
+    margin-top: 7%;
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
@@ -307,12 +312,12 @@ section {
 }
 
 .terms:hover {
-    color: orange;
+    color: #e91c1c;
     text-decoration: underline;
 }
 
 .submit input[type="submit"] {
-    color: rgb(225, 225, 225);
+    color: #000;
     cursor: pointer;
     border: none;
     font-weight: 900;
@@ -322,10 +327,10 @@ section {
     margin: 0px 3%;
     padding: 7px 0px;
     width: 25%;
-    font-size: 10px;
+    font-size: 14px;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
-    background-color: #797a7b;
+    background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
