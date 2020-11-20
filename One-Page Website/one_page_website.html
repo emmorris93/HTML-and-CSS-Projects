@@ -1,17 +1,10 @@
 <!-- Create a basic one-page HTML website that includes everything laid out in the project requirements. 
-
 For reference this includes:
-
 	Home page section (heading tag, <p> tag, etc.)
-
 	A section with pictures (<img> tags, etc.)
-
 	Contact form (<form> tag, <input> tag, etc.)
-
 	Footer (<footer> tag, etc.)
-
 	A section with a video(s) (<iframe> tag, src attribute, etc.)
-
 	A <nav> element that utilizes HTML bookmarks to allow the user to jump to various sections on the page. -->
 
 <!DOCTYPE html>
@@ -25,172 +18,180 @@ For reference this includes:
     <body>
 
         <!-- NAV -->
-        <div>
-            <div>
-                <ul>
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
                     <a href="#home" id="link"><li>HOME</li></a>
                     <a href="#gallery" id="link"><li>GALLERY</li></a>
                     <a href="#contact" id="link"><li>ADOPTION</li></a>
                     <a href="#donate" id="link"><li>DONATE</li></a>
                 </ul>
-            </div>
+            </div >
         </div>
         <!-- END NAV -->
 
         <!-- HOME -->
         <div id="home">
-            <div>
-                <div>
-                    <span>The Space Station</span>
+            <div class="container">
+                <div class="text-center"> 
+                    <span class="head-main">PAWradise Animal Rescue</span>
                 </div>
             </div>
         </div>
         <!-- END HOME -->
 
         <!-- GALLERY -->
-        <section>
-            <div id="gallery">
+        <section id="gallery">
+            <div class="container">
                 <h1>Gallery</h1>
-            </div>
+                <div class="flex-container">
 
-            <!-- PHOTO-CONTAINER 1 -->
-            <div class="photo-container">
-                <div class="photo">
-                    <img src="./Images/Thumb/thumbnail_1.jpg" alt="Chloe">
-                    <div class="photo-overlay">
-                        <h3 class="white-head">CHLOE</h3>
-                        <p>Female - German Shepherd/Siberian Husky Mix<br> 1 Year</p>
+                    <!-- PHOTO-CONTAINER 1 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./Images/Thumb/thumbnail_1.jpg" alt="Nemo">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">NEMO</h3>
+                                <p>Male - Havanese Mix<br> 2 Years</p>
+                            </div>
+                        </div>
                     </div>
+                    <!-- END PHOTO-CONTAINER 1 -->
+
+                    <!-- PHOTO-CONTAINER 2 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./Images/Thumb/thumbnail_2.jpg" alt="Dane">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">DANE</h3>
+                                <p>Male - Labrador/Sharpei Mix <br>3 Years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 2 -->
+
+                    <!-- PHOTO-CONTAINER 3 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./Images/Thumb/thumbnail_3.jpg" alt="Bashful">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">BASHFUL</h3>
+                                <p>Female - American Pit Bull<br>1 Year</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 3 -->
+
+                    <!-- PHOTO-CONTAINER 4 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./Images/Thumb/thumbnail_4.jpg" alt="Payton">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">PAYTON</h3>
+                                <p>Female - Blue Heeler Mix<br>3 Years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 4 -->
+
+                    <!-- PHOTO-CONTAINER 5 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./Images/Thumb/thumbnail_5.jpg" alt="Daphne">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">DAPHNE</h3>
+                                <p>Female - American Pit Bull/Hound Mix<br>3 Years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 5 -->
+
+                    <!-- PHOTO-CONTAINER 6 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./Images/Thumb/thumbnail_6.jpg" alt="Gretzky">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">GRETZKY</h3>
+                                <p>Male - Siberian Husky<br>3 Years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 6 -->
+
+                    <!-- PHOTO-CONTAINER 7 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./Images/Thumb/thumbnail_7.jpg" alt="Connie">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">CONNIE</h3>
+                                <p>Female - German Shepherd/Australian Cattledog Mix<br>14 Years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 7 -->
+
+                    <!-- PHOTO-CONTAINER 8 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./Images/Thumb/thumbnail_8.jpg" alt="Alakay">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">ALAKAY</h3>
+                                <p>Male - German Shepherd<br>3 Months</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 8 -->
+
+                    <!-- PHOTO-CONTAINER 9 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./Images/Thumb/thumbnail_9.jpg" alt="Winston">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">WINSTON</h3>
+                                <p>Male - Labrador Mix<br>1 Year</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 9 -->
                 </div>
             </div>
-            <!-- END PHOTO-CONTAINER 1 -->
-
-            <!-- PHOTO-CONTAINER 2 -->
-            <div class="photo-container">
-                <div class="photo">
-                    <img src="./Images/Thumb/thumbnail_2.jpg" alt="Dane">
-                    <div class="photo-overlay">
-                        <h3>DANE</h3>
-                        <p>Male - Labrador/Sharpei Mix <br>3 Years</p>
-                    </div>
-                </div>
-            </div>
-            <!-- END PHOTO-CONTAINER 2 -->
-
-            <!-- PHOTO-CONTAINER 3 -->
-            <div class="photo-container">
-                <div class="photo">
-                    <img src="./Images/Thumb/thumbnail_3.jpg" alt="Bashful">
-                    <div class="photo-overlay">
-                        <h3>BASHFUL</h3>
-                        <p>Female - American Pit Bull<br>1 Year</p>
-                    </div>
-                </div>
-            </div>
-            <!-- END PHOTO-CONTAINER 3 -->
-
-            <!-- PHOTO-CONTAINER 4 -->
-            <div class="photo-container">
-                <div class="photo">
-                    <img src="./Images/Thumb/thumbnail_4.jpg" alt="Winston">
-                    <div class="photo-overlay">
-                        <h3>WINSTON</h3>
-                        <p>Male - Labrador Mix<br>1Year</p>
-                    </div>
-                </div>
-            </div>
-            <!-- END PHOTO-CONTAINER 4 -->
-
-            <!-- PHOTO-CONTAINER 5 -->
-            <div class="photo-container">
-                <div class="photo">
-                    <img src="./Images/Thumb/thumbnail_5.jpg" alt="Daphne">
-                    <div class="photo-overlay">
-                        <h3>DAPHNE</h3>
-                        <p>Female - American Pit Bull/Hound Mix<br>3 Years</p>
-                    </div>
-                </div>
-            </div>
-            <!-- END PHOTO-CONTAINER 5 -->
-
-            <!-- PHOTO-CONTAINER 6 -->
-            <div class="photo-container">
-                <div class="photo">
-                    <img src="./Images/Thumb/thumbnail_6.jpg" alt="Gretzky">
-                    <div class="photo-overlay">
-                        <h3>GRETZKY</h3>
-                        <p>Male - Siberian Husky<br>3 Years</p>
-                    </div>
-                </div>
-            </div>
-            <!-- END PHOTO-CONTAINER 6 -->
-
-            <!-- PHOTO-CONTAINER 7 -->
-            <div class="photo-container">
-                <div class="photo">
-                    <img src="./Images/Thumb/thumbnail_7.jpg" alt="Connie">
-                    <div class="photo-overlay">
-                        <h3>CONNIE</h3>
-                        <p>Female - German Shepherd/Australian Cattledog Mix<br>14 Years</p>
-                    </div>
-                </div>
-            </div>
-            <!-- END PHOTO-CONTAINER 7 -->
-
-            <!-- PHOTO-CONTAINER 8 -->
-            <div class="photo-container">
-                <div class="photo">
-                    <img src="./Images/Thumb/thumbnail_8.jpg" alt="Calcifire">
-                    <div class="photo-overlay">
-                        <h3>CALCIFIRE</h3>
-                        <p>Male - Domestic Short Hair<br>2 Years</p>
-                    </div>
-                </div>
-            </div>
-            <!-- END PHOTO-CONTAINER 8 -->
-
-            <!-- PHOTO-CONTAINER 9 -->
-            <div class="photo-container">
-                <div class="photo">
-                    <img src="./Images/Thumb/thumbnail_9.jpg" alt="Stella">
-                    <div class="photo-overlay">
-                        <h3>STELLA</h3>
-                        <p>Female - Domestic Medium Hair<br>4 Years</p>
-                    </div>
-                </div>
-            </div>
-            <!-- END PHOTO-CONTAINER 9 -->        
-
         </section>
 		<!-- END GALLERY -->
 		
-		<!-- VIDEO -->
+        <!-- VIDEO -->
+        <section id="video">
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dxfxC3dI2J8" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div>
+        </section>
 
 		<!-- END VIDEO -->
 
         <!-- ADOPTION -->
-        <section>
-            <div id="contact">
-                <div>
-                    <h1>Adoption</h1>
-                    <div>
+        <section id="contact">
+            <div class="container">
+                <div class="heading-padding">
+                    <h1 class="heading-padding">Adoption</h1>
+                    <div class="adoption">
                         <h2><span>Your new best friend is a click away!</span>
-                            <br />Adopt today!
+                            <br/>Adopt today!
                         </h2>
-                        <p>
+                        <p class="adoption-text">
                             Complete the form below for more information about adoption.
                         </p>
-                        <div>
+                        <div class="form-adoption">
                             <form action="" method="POST">
-                                <input class="rsvp" type="text" value="First Name">
-                                <input class="rsvp" type="text" value="Last Name">
-                                <input class="rsvp" type="text" value="Email Address">
-                                <input class="rsvp" type="text" value="Phone Number">
+                                <input class="rsvp" type="text" value="" placeholder="First Name">
+                                <input class="rsvp" type="text" value="" placeholder="Last Name">
+                                <input class="rsvp" type="text" value="" placeholder="Email Address">
+                                <input class="rsvp" type="text" value="" placeholder="Phone Number">
                                 <div class="form-spacer">
                                     <label class="terms">Terms and Conditions</label>
                                 </div>
-                                <div>
-                                    <input type="submit" value="Submit">
+                                <div class="submit">
+                                    <input type="submit" value="submit">
                                 </div>
                             </form>
                         </div>
@@ -212,7 +213,7 @@ For reference this includes:
         <!-- END DONATE -->
 
         <!-- FOOTER -->
-        <div>
+        <div id="footer">
             (555)555-5555<br>1001 Sanctuary Lane, Vancouver, WA 55555<br>www.pawradiseanimalrescue.com &nbsp;|&nbsp; &copy; 2016
         </div>
         <!-- END FOOTER -->
