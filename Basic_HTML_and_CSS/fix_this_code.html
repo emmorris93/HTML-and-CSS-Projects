@@ -1,0 +1,78 @@
+<!-- The code below has the following errors:
+
+1. The Light-blue background color is not displaying correctly.
+
+2. The Heading is not displaying properly.
+
+3. The Title element is not functioning correctly.
+
+4. The Paragraph, "I am a bold student of The Tech Academy" requires to be bolded.
+
+5. The URL to The Tech Academy's website is not functioning correctly.
+
+6. The Tech Academy Logo is out of proportion. It should be resized with a width of 600px and a height of 300px.
+
+7. The Tech Academy Logo needs to display a red, dashed border, two pixels in thickness.
+
+8. The Heading 3 element, "Have you seen The Tech Academy's Student Orientation video?" is not being centered correctly.
+
+9. The embedded Youtube video isn't displaying.
+
+<html<
+<header><titled>This is the Title</titled><header<
+<body style="background-color=light blue;"<
+<font color="darkblue"<
+<h1<This is the Heading 1</h1<
+<h2<Thsi is the Heading 2 element</h2<
+<p<<strong<</strong<I am a bold student of The Tech Academy.</p<
+<p<<a href="learncodinganywhere.com/"< This is The Tech Academy's website.</a<</p<
+<img
+src="https://www.learncodinganywhere.com/images/tech_logo/The%20Tech%20Academy%20Logo.png"
+alt="The Tech Academy Logo" width=(1200px); height=(400px)<
+<h3<<centered<Have you seen The Tech Academy's Student Orientation video?</centered<</h3<
+<iframe width="560" height="315" "https://www.youtube.com/embed/g1g6JJrmESA" frameborder="0"
+allowfullscreen<</iframe<
+< /body<
+</html< -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <title>This is the Title</title>
+            <link rel="stylesheet" href="./CSS/fix_this_code.css">
+    </head>
+
+    <body>
+
+        <!-- HEADING 1 -->
+        <h1 class="center">This is the Heading 1</h1>
+        <!-- HEADING 1 END -->
+
+        <!-- HEADING 2 -->
+        <h2 class="center">This is the Heading 2 element</h2>
+            <p class="bold center">I am a bold student of The Tech Academy</p>
+            <p class="bold center">
+                <a href="https:/learncodinganywhere.com" target="new">This is the Tech Academy's website
+                    <img src="https://www.learncodinganywhere.com/images/tech_logo/The%20Tech%20Academy%20Logo.png" 
+                    alt="The Tech Academy Logo" 
+                    class="center"/>
+                </a>
+            </p>
+        <!-- HEADING 2 END -->
+        
+        <!-- HEADING 3 -->
+        <h3 class="center">Have you seen the Tech Academy's Student Orientation video?</h3>
+
+        <div>
+            <iframe
+                width="560" height="315" 
+                src="https://www.youtube.com/embed/g1g6JJrmESA"
+                frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+        <!-- HEADING 3 END -->
+
+    </body>
+
+</html>
