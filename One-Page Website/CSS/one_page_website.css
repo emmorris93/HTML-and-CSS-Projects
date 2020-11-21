@@ -84,7 +84,6 @@ p {
     transform: scale(1.1)
 }
 
-<<<<<<< HEAD
 /* VIDEO STYLE */
 
 .video-iframe {
@@ -101,9 +100,6 @@ p {
 
 /* GENERIC STYLES */
 
-=======
-/* GENERIC STYLES */
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
 html {
     font-family: sans-serif;
     font-size: 62.5%;
@@ -118,11 +114,7 @@ body {
     font-family: "helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.42857143;
     color: #333;
-<<<<<<< HEAD
     background-color: #6ba1b8;
-=======
-    background-color: #fff;
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
 }
 
 footer,
@@ -135,18 +127,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-<<<<<<< HEAD
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-=======
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
     line-height: 50px;
     font-weight: 900;
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-<<<<<<< HEAD
     color: #ed8b00;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
@@ -162,36 +150,20 @@ h1::before {
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
 }
 
-=======
-    color: #e91c1c;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
-}
-
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
 h1::after { /* This is the underline*/
     display: block;
     content: "";
     height: 2px;
     width: 150px;
-<<<<<<< HEAD
     background: #ed8b00;
     margin: 5px auto;
     box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
-=======
-    background: #e91c1c;
-    margin: 5px auto 40px;
-    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
 }
 
 h2 {
     line-height: 50px;
-<<<<<<< HEAD
     color: #fff;
-=======
-    color: #e91c1c;
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
 }
 
 h3 {
@@ -272,11 +244,7 @@ section {
 /* HOME SECTION STYLES */
 
 #home {
-<<<<<<< HEAD
     background: url(../Images/dogs-and-flowers_.jpg) no-repeat 50% 50%;
-=======
-    background: url(../Images/Thumb/nine-dogs-in-grassy-field.jpg) no-repeat 50% 50%;
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -285,16 +253,10 @@ section {
     width: 100%;
     display: block;
     height: auto;
-<<<<<<< HEAD
     padding-top: 250px; /* This is spacer before the Main title Logo */
     padding-bottom: 750px; /* This is spacer after the Main title Logo */
     color: #fff;
     border-bottom: 10px solid #ed8b00;
-=======
-    padding-top: 750px; /* This is spacer before the Main title Logo */
-    padding-bottom: 500px; /* This is spacer after the Main title Logo */
-    color: #fff;
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
 }
 
 .head-main {
@@ -305,20 +267,12 @@ section {
     word-spacing: 21pt;
     font-size: 4.5em;
     text-align: left;
-<<<<<<< HEAD
     font-family: cursive;
     line-height: 2;
     font-weight: 900;
     border: 5px double #fff;
     padding: 20px;
     background-color: #f1b434;
-=======
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 2;
-    font-weight: 900;
-    border: 5px double #fff;
-    padding: 10px;
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
 }
 
 /* CONTACT STYLES */
@@ -329,39 +283,26 @@ section {
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 0px;
-<<<<<<< HEAD
     border: 10px solid #ed8b00;
     margin: 0px auto;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: rgb(227, 222, 222);
-=======
-    margin: 0px auto;
-    background-color: rgba(100, 65, 0, 0.3);
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 #contact {
     background-color: #f3f3f3;
-<<<<<<< HEAD
     border: 10px solid #ed8b00;
-=======
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
 }
 
 .adoption {
     width: 60%;
     padding: 10px;
     border-radius: 8px;
-<<<<<<< HEAD
     border: 10px solid #ed8b00;
     margin: 0px auto;
     background-color: #f1b434;
-=======
-    margin: 0px auto;
-    background-color: rgba(100, 65, 0, 0.3);
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
     box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -390,11 +331,8 @@ section {
 
 .adoption p {
     color: #13161b;
-<<<<<<< HEAD
     font: bold;
     font-size: 15px;
-=======
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
     width: 50%;
     margin: 0 auto;
 }
@@ -427,11 +365,7 @@ section {
     border-left: 1px solid #090b0d;
     margin: 10px 1em;
     border-radius: 7px;
-<<<<<<< HEAD
     background: #fff;
-=======
-    background: #13161b;
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
     box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
     font-family: 'Raleway', sans-serif;
 }
@@ -445,13 +379,9 @@ section {
 }
 
 .terms {
-<<<<<<< HEAD
     color: #000;
     margin: 30px 1px 0 0;
     margin-top: 9%;
-=======
-    margin: 30px 1px 0 0;
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
     padding-left: 52px;
     font-size: 14px;
     line-height: 5px;
@@ -465,16 +395,11 @@ section {
 }
 
 .terms:hover {
-<<<<<<< HEAD
     color: #ed8b00;
-=======
-    counter-reset: #e91c1c;
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
     text-decoration: underline;
 }
 
 .submit input[type="submit"] {
-<<<<<<< HEAD
     color: #8d8e8f;
     cursor: pointer;
     border:  1px solid #808080;
@@ -519,8 +444,6 @@ section {
 }
 
 .donate-container {
-=======
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
     color: rgb(225, 225, 225);
     cursor: pointer;
     border: none;
@@ -528,15 +451,9 @@ section {
     outline: none;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-<<<<<<< HEAD
     margin: 0px auto;
     padding: 7px 0px;
     width: 10%;
-=======
-    margin: 0px 3%;
-    padding: 7px 0px;
-    width: 25%;
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
     font-size: 16px;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
@@ -544,18 +461,13 @@ section {
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
-<<<<<<< HEAD
 .donate-button:hover {
     cursor: pointer;
-=======
-.submit input[type="submit"]:hover {
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
     color: #000;
     background-color: #6d6e6f;
     box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
-<<<<<<< HEAD
 .donate-text {
     width: 70%;
     text-align: center;
@@ -572,12 +484,6 @@ section {
 #footer {
     border-top: 10px solid #ed8b00;
     background-color: #f1b434;
-=======
-/* FOOTER STYLES */
-
-#footer {
-    background-color: rgba(100, 65, 0, 0.3);
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
     color: #000;
     text-shadow: 2px 2px 6px 0 (0, 0, 0, 0.4);
     padding: 20px 50px 20px 50px;
@@ -587,7 +493,6 @@ section {
 /* MENU SECTION ANIMATION */ /*Slide 320*/
 
 .menu {
-<<<<<<< HEAD
     color: #ed8b00;
     font: bold 12px/18px sans-serif;
     font-size: 20px;
@@ -623,8 +528,3 @@ section {
     background-color: rgba(100, 65, 0, 0.3);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
-=======
-
-}
-
->>>>>>> 60358fd0262010fbca742e6a3b4206c720fa4264
