@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(29, 39, 29);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(114, 199, 96);
+}
+
+p {
+    text-align: center;
+    color: rgb(114, 199, 96);
+    font-size: 20px;
+}
+
+p:hover {
+    color:#fff;
+}

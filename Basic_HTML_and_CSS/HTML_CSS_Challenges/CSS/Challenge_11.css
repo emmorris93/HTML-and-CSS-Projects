@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(29, 39, 29);
+}
+
+h1, p {
+    text-align: center;
+    color: rgb(114, 199, 96);
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    border: rgb(114, 199, 96) solid 5px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        color: blue;
+    }
+}

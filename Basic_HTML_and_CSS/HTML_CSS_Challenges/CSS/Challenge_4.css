@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(29, 39, 29);
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px rgb(114, 199, 96);
+    color: ivory;
+}
+
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: ivory;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px rgb(114, 199, 96);
+}
+
+img {
+    border: rgb(114, 199, 96) solid 5px;
+    border-radius: 25px;
+}
+

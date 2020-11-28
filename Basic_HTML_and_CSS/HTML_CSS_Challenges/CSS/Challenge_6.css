@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(29, 39, 29);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(114, 199, 96);
+}
+
+.column {
+    float: left;
+    width: 50%;
+    min-height: 500px;
+    column-rule: 4px double rgb(231, 236, 230);
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(114, 199, 96);
+    color: rgb(29, 39, 29);
+    border: 1px solid rgb(231, 236, 230);
+    border-width: medium;
+}
+
+p {
+    text-align: center;
+    background-color: rgb(29, 39, 29);
+    color: rgb(114, 199, 96);
+    font-size: 20px;
+    border-width: thin;
+}
