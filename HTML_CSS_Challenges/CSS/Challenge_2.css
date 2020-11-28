@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: cornflowerblue;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}

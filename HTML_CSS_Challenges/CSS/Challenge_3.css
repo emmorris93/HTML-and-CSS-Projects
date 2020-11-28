@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(235, 235, 230);
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+table, th, td {
+    border: 1px solid blue;
+    color: blue;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+th {
+    background-color: blue;
+    color: #fff;
+}
+

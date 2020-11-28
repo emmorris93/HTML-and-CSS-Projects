@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(29, 39, 29);
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px rgb(114, 199, 96);
+    color: ivory;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    border: rgb(114, 199, 96) solid 5px;
+    border-radius: 25px;
+    filter: grayscale(50%);
+}
+
